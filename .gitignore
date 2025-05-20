@@ -21,3 +21,8 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Entorno virtual
+venv/
+env/
+.env/
