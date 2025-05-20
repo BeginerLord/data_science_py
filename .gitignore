@@ -1,0 +1,23 @@
+# Excluir conjuntos de datos grandes
+data/*.csv
+data/*.parquet
+data/*.xlsx
+!data/sample_*.csv  # Incluir muestras pequeñas
+
+# Archivos temporales
+*.tmp
+*.bak
+.DS_Store
+
+# Modelos entrenados (opcional, según tamaño)
+models/*.pkl
+models/*.joblib
+!models/README.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
